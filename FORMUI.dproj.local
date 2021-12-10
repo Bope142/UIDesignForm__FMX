@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2021/12/08 19:25:46.098,=C:\Users\User\Documents\Embarcadero\Studio\Projets\Unit2.pas</Transaction>
+    <Transaction>2021/12/08 19:26:02.943,C:\Users\User\Desktop\FORM UI DESIGN\Unit2.fmx=C:\Users\User\Documents\Embarcadero\Studio\Projets\Unit2.fmx</Transaction>
+    <Transaction>2021/12/08 19:26:02.943,C:\Users\User\Desktop\FORM UI DESIGN\Unit2.pas=C:\Users\User\Documents\Embarcadero\Studio\Projets\Unit2.pas</Transaction>
+    <Transaction>2021/12/08 19:26:10.512,C:\Users\User\Desktop\FORM UI DESIGN\FORMUI.dproj=C:\Users\User\Documents\Embarcadero\Studio\Projets\Project3.dproj</Transaction>
+  </Transactions>
+  <ActiveMobileDevice>   <NoProfile iOSSimulator="iPhone5"/>
+  </ActiveMobileDevice>
+</BorlandProject>

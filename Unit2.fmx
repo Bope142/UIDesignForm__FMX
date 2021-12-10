@@ -1,0 +1,648 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Login / Sign Up UI Fmx'
+  ClientHeight = 575
+  ClientWidth = 302
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 302.000000000000000000
+    Size.Height = 575.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = None
+    Sizes = (
+      302s
+      575s
+      302s
+      575s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem1'
+      object Rectangle1: TRectangle
+        Align = Contents
+        Fill.Color = claWhite
+        Size.Width = 302.000000000000000000
+        Size.Height = 575.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Rectangle2: TRectangle
+        Align = Top
+        Fill.Color = xFF0A0334
+        Size.Width = 302.000000000000000000
+        Size.Height = 233.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object Rectangle3: TRectangle
+          Align = Center
+          Fill.Color = claWhite
+          Size.Width = 50.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object Image1: TImage
+            MultiResBitmap.Height = 48
+            MultiResBitmap.Width = 48
+            MultiResBitmap = <
+              item
+                Width = 48
+                Height = 48
+                PNG = {
+                  89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+                  87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                  0220494441546843ED97BF4FDB5010C7DF391EEC58A51230020B1B4BAB266160
+                  C9540A2B127F013B1382664BA71621A1FE23EDD0B92C6C4469D515556C8C5551
+                  8892F0D3D77BEE2912714C6C27CF2F96DE6788EF2EC3BBAFDFBDBB676130180C
+                  5A017E3EC1714A4B96258E51401540CC737822208A3F20F0F4D1C6FDDBEB9F17
+                  1C4E4D4880E39417C1C25F0030CB212520E25F818557BD5EE39243A9B0F8D9C7
+                  B2F0B3EAE425720D00FF98DDD48404A0106FD9540EADB5CE666A4202E8CDBC60
+                  533974BE5EB2999A9080BC6104E8C608D04D689015BD3275B7ECE8769A4F7218
+                  5C7FD4E49EFA1D08AE32005BD603345C777581C37D72534251933B576760D8E4
+                  CE958061933BF75DC808D08D5601D4E35B6C06CCCDAD25BE096B154003EA3B9B
+                  013737F74B6CC6469B007AFB570F05BBC66E007D666EB2199BCC055092D7F4F3
+                  D5B7FDCA5DFBEC378789AA4D7D7E879DD8C4BA0B51E0B0D769BE675709C56279
+                  8FB239623792C1BBD3C81D40811FD4275FD910801FD94DC4B302FE27FFA3CEAE
+                  02B60BAEF7669792FF46C5607330119125A42EF9AAE379DDE547E1BF03143B74
+                  495BE13F62315842430524495EF7F743A884D497CD6409ED4052DC62A9456530
+                  C3AE721277A151D015F7844D2D8C2DA060414D4E557633676C01ED76F31C7D7C
+                  4DD3F50B4DD936873363EC33A00AD72B7FA2E40ED8ED33F133A00A39FD654764
+                  3792A9152091ED7C9488A9162089232217B85EA99EF5D49F3852049B06832140
+                  887FC4CDB908B1EC72420000000049454E44AE426082}
+                FileName = 'C:\Users\User\Desktop\FORM UI DESIGN\Assets\chat_48px.png'
+              end>
+            Align = Center
+            Size.Width = 30.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+      end
+      object Layout1: TLayout
+        Align = Client
+        Padding.Left = 25.000000000000000000
+        Padding.Top = 15.000000000000000000
+        Padding.Right = 25.000000000000000000
+        Padding.Bottom = 15.000000000000000000
+        Size.Width = 302.000000000000000000
+        Size.Height = 342.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object Rectangle4: TRectangle
+          Align = Top
+          Fill.Color = claWhite
+          Padding.Left = 5.000000000000000000
+          Padding.Top = 5.000000000000000000
+          Padding.Right = 5.000000000000000000
+          Padding.Bottom = 5.000000000000000000
+          Margins.Bottom = 25.000000000000000000
+          Position.X = 25.000000000000000000
+          Position.Y = 15.000000000000000000
+          Size.Width = 252.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          XRadius = 5.000000000000000000
+          YRadius = 5.000000000000000000
+          object Text1: TText
+            Align = Top
+            Position.X = 5.000000000000000000
+            Position.Y = 5.000000000000000000
+            Size.Width = 242.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Email'
+            TextSettings.Font.Family = 'Poppins'
+            TextSettings.FontColor = xFF0A0334
+            TextSettings.Trimming = Character
+            TextSettings.HorzAlign = Leading
+          end
+          object Edit1: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Client
+            StyleLookup = 'transparentedit'
+            TabOrder = 1
+            TextSettings.Font.Family = 'Poppins'
+            Size.Width = 242.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'Email here'
+            StyledSettings = [Size, Style]
+            OnEnter = Edit1Enter
+            OnExit = Edit1Exit
+          end
+          object ShadowEffect1: TShadowEffect
+            Distance = 3.000000000000000000
+            Direction = 45.000000000000000000
+            Softness = 0.300000011920929000
+            Opacity = 0.200000002980232200
+            ShadowColor = claBlack
+          end
+          object ColorAnimation1: TColorAnimation
+            Duration = 0.200000002980232200
+            PropertyName = 'Fill.Color'
+            StartValue = claWhite
+            StopValue = claWhite
+          end
+        end
+        object Rectangle5: TRectangle
+          Align = Top
+          Fill.Color = claWhite
+          Padding.Left = 5.000000000000000000
+          Padding.Top = 5.000000000000000000
+          Padding.Right = 5.000000000000000000
+          Padding.Bottom = 5.000000000000000000
+          Position.X = 25.000000000000000000
+          Position.Y = 90.000000000000000000
+          Size.Width = 252.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          XRadius = 5.000000000000000000
+          YRadius = 5.000000000000000000
+          object Text2: TText
+            Align = Top
+            Position.X = 5.000000000000000000
+            Position.Y = 5.000000000000000000
+            Size.Width = 242.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Password'
+            TextSettings.Font.Family = 'Poppins'
+            TextSettings.FontColor = xFF0A0334
+            TextSettings.Trimming = Character
+            TextSettings.HorzAlign = Leading
+          end
+          object Edit2: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Client
+            StyleLookup = 'transparentedit'
+            TabOrder = 1
+            Password = True
+            TextSettings.Font.Family = 'Poppins'
+            Size.Width = 242.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'Password here'
+            StyledSettings = [Size, Style]
+            OnEnter = Edit2Enter
+            OnExit = Edit2Exit
+          end
+          object ShadowEffect2: TShadowEffect
+            Distance = 3.000000000000000000
+            Direction = 45.000000000000000000
+            Softness = 0.300000011920929000
+            Opacity = 0.200000002980232200
+            ShadowColor = claBlack
+          end
+          object ColorAnimation2: TColorAnimation
+            Duration = 0.200000002980232200
+            PropertyName = 'Fill.Color'
+            StartValue = claWhite
+            StopValue = claWhite
+          end
+        end
+        object Rectangle6: TRectangle
+          Align = Top
+          Cursor = crHandPoint
+          Fill.Color = xFF0A0334
+          Padding.Left = 5.000000000000000000
+          Padding.Top = 5.000000000000000000
+          Padding.Right = 5.000000000000000000
+          Padding.Bottom = 5.000000000000000000
+          Margins.Top = 50.000000000000000000
+          Position.X = 25.000000000000000000
+          Position.Y = 190.000000000000000000
+          Size.Width = 252.000000000000000000
+          Size.Height = 45.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          XRadius = 5.000000000000000000
+          YRadius = 5.000000000000000000
+          object Text3: TText
+            Align = Client
+            Cursor = crHandPoint
+            Size.Width = 242.000000000000000000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Login'
+            TextSettings.Font.Family = 'Poppins'
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.FontColor = claWhite
+            TextSettings.Trimming = Character
+          end
+          object ShadowEffect3: TShadowEffect
+            Distance = 3.000000000000000000
+            Direction = 45.000000000000000000
+            Softness = 0.300000011920929000
+            Opacity = 0.200000002980232200
+            ShadowColor = claBlack
+          end
+        end
+        object Text4: TText
+          Align = Bottom
+          Cursor = crHandPoint
+          Position.X = 25.000000000000000000
+          Position.Y = 312.000000000000000000
+          Size.Width = 252.000000000000000000
+          Size.Height = 15.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Don'#39't have any account? Sign up.'
+          TextSettings.Font.Family = 'Poppins'
+          TextSettings.Font.StyleExt = {00050000000000000004000000}
+          TextSettings.FontColor = xFF0A0334
+          OnClick = Text4Click
+        end
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem2'
+      object Layout2: TLayout
+        Align = Client
+        Padding.Left = 25.000000000000000000
+        Padding.Top = 15.000000000000000000
+        Padding.Right = 25.000000000000000000
+        Padding.Bottom = 15.000000000000000000
+        Size.Width = 302.000000000000000000
+        Size.Height = 502.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object Rectangle7: TRectangle
+          Align = Top
+          Fill.Color = claWhite
+          Padding.Left = 5.000000000000000000
+          Padding.Top = 5.000000000000000000
+          Padding.Right = 5.000000000000000000
+          Padding.Bottom = 5.000000000000000000
+          Margins.Bottom = 25.000000000000000000
+          Position.X = 25.000000000000000000
+          Position.Y = 15.000000000000000000
+          Size.Width = 252.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          XRadius = 5.000000000000000000
+          YRadius = 5.000000000000000000
+          object Text5: TText
+            Align = Top
+            Position.X = 5.000000000000000000
+            Position.Y = 5.000000000000000000
+            Size.Width = 242.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Name'
+            TextSettings.Font.Family = 'Poppins'
+            TextSettings.FontColor = xFF0A0334
+            TextSettings.Trimming = Character
+            TextSettings.HorzAlign = Leading
+          end
+          object Edit3: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Client
+            StyleLookup = 'transparentedit'
+            TabOrder = 1
+            TextSettings.Font.Family = 'Poppins'
+            Size.Width = 242.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'Name here'
+            StyledSettings = [Size, Style]
+            OnEnter = Edit3Enter
+            OnExit = Edit3Exit
+          end
+          object ShadowEffect4: TShadowEffect
+            Distance = 3.000000000000000000
+            Direction = 45.000000000000000000
+            Softness = 0.300000011920929000
+            Opacity = 0.200000002980232200
+            ShadowColor = claBlack
+          end
+          object ColorAnimation3: TColorAnimation
+            Duration = 0.200000002980232200
+            PropertyName = 'Fill.Color'
+            StartValue = claWhite
+            StopValue = claWhite
+          end
+        end
+        object Rectangle8: TRectangle
+          Align = Top
+          Fill.Color = claWhite
+          Padding.Left = 5.000000000000000000
+          Padding.Top = 5.000000000000000000
+          Padding.Right = 5.000000000000000000
+          Padding.Bottom = 5.000000000000000000
+          Position.X = 25.000000000000000000
+          Position.Y = 90.000000000000000000
+          Size.Width = 252.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          XRadius = 5.000000000000000000
+          YRadius = 5.000000000000000000
+          object Text6: TText
+            Align = Top
+            Position.X = 5.000000000000000000
+            Position.Y = 5.000000000000000000
+            Size.Width = 242.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Email'
+            TextSettings.Font.Family = 'Poppins'
+            TextSettings.FontColor = xFF0A0334
+            TextSettings.Trimming = Character
+            TextSettings.HorzAlign = Leading
+          end
+          object Edit4: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Client
+            StyleLookup = 'transparentedit'
+            TabOrder = 1
+            TextSettings.Font.Family = 'Poppins'
+            Size.Width = 242.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'Email here'
+            StyledSettings = [Size, Style]
+            OnEnter = Edit4Enter
+            OnExit = Edit4Exit
+          end
+          object ShadowEffect5: TShadowEffect
+            Distance = 3.000000000000000000
+            Direction = 45.000000000000000000
+            Softness = 0.300000011920929000
+            Opacity = 0.200000002980232200
+            ShadowColor = claBlack
+          end
+          object ColorAnimation4: TColorAnimation
+            Duration = 0.200000002980232200
+            PropertyName = 'Fill.Color'
+            StartValue = claWhite
+            StopValue = claWhite
+          end
+        end
+        object Rectangle9: TRectangle
+          Align = Top
+          Cursor = crHandPoint
+          Fill.Color = xFF0A0334
+          Padding.Left = 5.000000000000000000
+          Padding.Top = 5.000000000000000000
+          Padding.Right = 5.000000000000000000
+          Padding.Bottom = 5.000000000000000000
+          Margins.Top = 50.000000000000000000
+          Position.X = 25.000000000000000000
+          Position.Y = 330.000000000000000000
+          Size.Width = 252.000000000000000000
+          Size.Height = 45.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          XRadius = 5.000000000000000000
+          YRadius = 5.000000000000000000
+          object Text7: TText
+            Align = Client
+            Cursor = crHandPoint
+            Size.Width = 242.000000000000000000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Sign Up'
+            TextSettings.Font.Family = 'Poppins'
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.FontColor = claWhite
+            TextSettings.Trimming = Character
+          end
+          object ShadowEffect6: TShadowEffect
+            Distance = 3.000000000000000000
+            Direction = 45.000000000000000000
+            Softness = 0.300000011920929000
+            Opacity = 0.200000002980232200
+            ShadowColor = claBlack
+          end
+        end
+        object Text8: TText
+          Align = Bottom
+          Cursor = crHandPoint
+          Position.X = 25.000000000000000000
+          Position.Y = 472.000000000000000000
+          Size.Width = 252.000000000000000000
+          Size.Height = 15.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'You have an account? login'
+          TextSettings.Font.Family = 'Poppins'
+          TextSettings.Font.StyleExt = {00050000000000000004000000}
+          TextSettings.FontColor = xFF0A0334
+          OnClick = Text8Click
+        end
+        object Rectangle10: TRectangle
+          Align = Top
+          Fill.Color = claWhite
+          Padding.Left = 5.000000000000000000
+          Padding.Top = 5.000000000000000000
+          Padding.Right = 5.000000000000000000
+          Padding.Bottom = 5.000000000000000000
+          Margins.Top = 20.000000000000000000
+          Position.X = 25.000000000000000000
+          Position.Y = 160.000000000000000000
+          Size.Width = 252.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          XRadius = 5.000000000000000000
+          YRadius = 5.000000000000000000
+          object Text9: TText
+            Align = Top
+            Position.X = 5.000000000000000000
+            Position.Y = 5.000000000000000000
+            Size.Width = 242.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Password'
+            TextSettings.Font.Family = 'Poppins'
+            TextSettings.FontColor = xFF0A0334
+            TextSettings.Trimming = Character
+            TextSettings.HorzAlign = Leading
+          end
+          object Edit5: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Client
+            StyleLookup = 'transparentedit'
+            TabOrder = 1
+            Password = True
+            TextSettings.Font.Family = 'Poppins'
+            Size.Width = 242.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'Password here'
+            StyledSettings = [Size, Style]
+            OnEnter = Edit5Enter
+            OnExit = Edit5Exit
+          end
+          object ShadowEffect7: TShadowEffect
+            Distance = 3.000000000000000000
+            Direction = 45.000000000000000000
+            Softness = 0.300000011920929000
+            Opacity = 0.200000002980232200
+            ShadowColor = claBlack
+          end
+          object ColorAnimation5: TColorAnimation
+            Duration = 0.200000002980232200
+            PropertyName = 'Fill.Color'
+            StartValue = claWhite
+            StopValue = claWhite
+          end
+        end
+        object Rectangle12: TRectangle
+          Align = Top
+          Fill.Color = claWhite
+          Padding.Left = 5.000000000000000000
+          Padding.Top = 5.000000000000000000
+          Padding.Right = 5.000000000000000000
+          Padding.Bottom = 5.000000000000000000
+          Margins.Top = 20.000000000000000000
+          Position.X = 25.000000000000000000
+          Position.Y = 230.000000000000000000
+          Size.Width = 252.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          XRadius = 5.000000000000000000
+          YRadius = 5.000000000000000000
+          object Text10: TText
+            Align = Top
+            Position.X = 5.000000000000000000
+            Position.Y = 5.000000000000000000
+            Size.Width = 242.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Password Confirmation'
+            TextSettings.Font.Family = 'Poppins'
+            TextSettings.FontColor = xFF0A0334
+            TextSettings.Trimming = Character
+            TextSettings.HorzAlign = Leading
+          end
+          object Edit6: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Client
+            StyleLookup = 'transparentedit'
+            TabOrder = 1
+            Password = True
+            TextSettings.Font.Family = 'Poppins'
+            Size.Width = 242.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'Password here'
+            StyledSettings = [Size, Style]
+            OnEnter = Edit6Enter
+            OnExit = Edit6Exit
+          end
+          object ShadowEffect8: TShadowEffect
+            Distance = 3.000000000000000000
+            Direction = 45.000000000000000000
+            Softness = 0.300000011920929000
+            Opacity = 0.200000002980232200
+            ShadowColor = claBlack
+          end
+          object ColorAnimation6: TColorAnimation
+            Duration = 0.200000002980232200
+            PropertyName = 'Fill.Color'
+            StartValue = claWhite
+            StopValue = claWhite
+          end
+        end
+      end
+      object Rectangle11: TRectangle
+        Align = Top
+        Fill.Color = xFF0A0334
+        Size.Width = 302.000000000000000000
+        Size.Height = 73.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object Layout3: TLayout
+          Align = Center
+          Padding.Left = 5.000000000000000000
+          Padding.Top = 5.000000000000000000
+          Padding.Right = 5.000000000000000000
+          Padding.Bottom = 5.000000000000000000
+          Size.Width = 302.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object Text11: TText
+            Align = Client
+            Cursor = crHandPoint
+            Size.Width = 292.000000000000000000
+            Size.Height = 31.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Sign Up'
+            TextSettings.Font.Family = 'Poppins'
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.FontColor = claWhite
+            TextSettings.Trimming = Character
+          end
+          object Image2: TImage
+            MultiResBitmap.Height = 32
+            MultiResBitmap.Width = 32
+            MultiResBitmap = <
+              item
+                Width = 32
+                Height = 32
+                PNG = {
+                  89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+                  F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                  010C494441545847ED96B14AC360148593945AAC16B4121D8A145B5CC4D1F7F1
+                  CDBA762C82080E2274E85874287428A588148A8B4F90F8DD7084AC0EFF15CAFF
+                  C1E186FF0CDF25094D934824F2178AA2C8C9535996031DF981B84BDE9097B684
+                  8E7D407846DE259F334E548507D9A9A4265F905C5578701E239C49BE2417AAC2
+                  83EC90BC48BE2697AAC283AC459E25DF90BEAAF0E06C229C48BE25D7AA82906A
+                  56E0CC1823725F1D0424059B26AC93B14447D7FF030B34B8ED637B04F0CDF59D
+                  2A3F10DB7BF0601B30BFC8AD2A3F701F207ED4123B72A3CA0FA4F5DF824F3254
+                  E507EE36E2572DF141AE54F981F4884CB5C48AF454F981B4FE45F4FD1CFF82F8
+                  DCE4ECE0FF87241289EC2949F2031D0A0BFDE8EDA8D30000000049454E44AE42
+                  6082}
+                FileName = 'C:\Users\User\Desktop\FORM UI DESIGN\Assets\left_32px.png'
+              end>
+            Anchors = []
+            Position.X = 5.000000000000000000
+            Position.Y = 5.000000000000000000
+            Size.Width = 28.000000000000000000
+            Size.Height = 31.000000000000000000
+            Size.PlatformDefault = False
+            OnClick = Image2Click
+          end
+        end
+      end
+    end
+  end
+  object ActionList1: TActionList
+    Left = 182
+    Top = 101
+    object ChangeTabAction1: TChangeTabAction
+      Category = 'Onglet'
+      Tab = TabItem1
+    end
+    object ChangeTabAction2: TChangeTabAction
+      Category = 'Onglet'
+      Tab = TabItem2
+    end
+  end
+end
